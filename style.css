@@ -4,102 +4,106 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-i{
+i {
     font-size: 22px;
 }
 
-body{
+body {
     background-color: #f8f9fb;
     padding: 15px;
     display: flex;
     align-items: center;
-    height: 900px;
     gap: 15px;
     justify-content: space-between;
+    height: auto;
 }
 
-.menu-nav{
+.menu-nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 60px;
-    height: 100%;
     border-radius: 20px;
     padding: 20px;
-    background-color:#706bf9 ;
+    background-color: #706bf9;
     box-shadow: 5px 2px 5px #ccc;
     color: white;
+    height: 900px;
 }
 
-.section-one{
+.section-one {
     display: flex;
     gap: 20px;
 }
 
-.icons{
+.icons {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
 }
 
-.content-main{
+.content-main {
     display: flex;
     flex-direction: column;
     gap: 20px;
     height: 90%;
 }
-.reading-main{
+
+.reading-main {
     display: flex;
     justify-content: space-between;
     height: 42px;
 }
 
-.card-main-one{
+.card-main-one {
     display: flex;
     flex-direction: column;
     justify-items: flex-end;
-    border: 1px rgb(241, 241, 241) solid;
+    background-color: white;
+    border: 1px rgb(223, 223, 223) solid;
     border-radius: 15px;
     box-shadow: 4px 6px 10px rgb(233, 233, 233);
     gap: 15px;
     padding: 15px;
-    width: 180px;
+    min-width: 210px;
 }
 
-.head-main-card-one{
+.head-main-card-one {
     display: flex;
     justify-content: space-between;
 
 }
 
-.card-main-two{
+.card-main-two {
     display: flex;
     gap: 20px;
+    width: 100%;
 
 
 }
 
-.card-main-two .chart{
+.card-main-two .chart {
     display: flex;
     flex-direction: column;
-    justify-items: flex-end;
-    border: 1px rgb(241, 241, 241) solid;
+    border: 1px rgb(233, 233, 233) solid;
+    background-color: white;
+
     border-radius: 15px;
     box-shadow: 4px 6px 10px rgb(233, 233, 233);
+    width:100%;
     gap: 15px;
     padding: 15px;
-    width: 100%;
 }
 
-.card-main-two .one{
+.card-main-two .one {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.card-main-one .number{
+.card-main-one .number {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,35 +126,42 @@ body{
     border-radius: 5px;
 }
 
-.emails{
+.card-main-three {
+    display: flex;
+    flex-direction: column;
+}
+
+.emails {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.list-email{
+.list-email {
 
     display: flex;
-    border: 1px rgb(241, 241, 241) solid;
+    border: 1px rgb(224, 224, 224) solid;
     border-radius: 15px;
+    background-color: white;
     gap: 15px;
     padding: 15px;
     justify-content: space-between;
+    height: 30px;
 
 }
 
-.list-email:hover{
+.list-email:hover {
     box-shadow: 4px 6px 10px rgb(233, 233, 233);
 
 }
 
-.card-main-four{
+.card-main-four {
 
     display: flex;
     flex-direction: column;
     background-color: #f2f2fc;
     border-radius: 30px;
-    height: 100%;
+    height: 900px;
     width: 300px;
     padding: 15px;
 
